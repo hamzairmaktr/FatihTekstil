@@ -1,0 +1,186 @@
+html{
+    font-size: 10px;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+p,a{
+    font-size: 1.8rem;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.7rem;
+}
+
+h3{
+    font-size: 3.3rem;
+}
+
+h4{
+    font-size: 2.7rem;
+}
+
+h5{
+    font-size: 2.3rem;
+}
+
+h6{
+    font-size: 2rem;
+}
+:root{
+    --primary-color:#003865;
+    --secondary-color:#b52732;
+    --light-color:#D4F6CC;
+    --dark-color:#0F3D3E;
+}
+
+/* navigasyon */
+.navigation{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: var(--primary-color);
+    z-index: 100;
+    
+}
+.navigation div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.logo-baslik{
+    color: #fff;
+    margin-left: 2rem;
+}
+.logo-span{
+    color: var(--secondary-color);
+}
+.nav-links{
+    display: flex;
+    margin-right: 2rem;
+}
+.nav-links li{
+    list-style: none;
+    margin-left: 1rem;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+    transition: .5s ease;
+    font-weight: 400;
+}
+.nav-links a:hover{
+    color: var(--secondary-color);
+}
+
+/* header */
+.header{
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.header-content{
+    height: 100vh;
+    background: url("https://lh3.googleusercontent.com/LgKNE3vbTi8zb5jVYfOiITktplT4FK_5SKhP6N01xcUNL-UjjfpNV13gogIvFqS3THzljsFW_oAVJdIEcJvO74a0zGRpRlryUOpPc_hbzGZjgBb-ZiTpL1nzQFqfO6l7Kvayz7FMELprZ2-VXkZnHXZOsxFsqVo4zBNx7gY2HT8Ka-Apl_RI8d7WnWC5mjcameX0O6qDycR8k4mH7Zto2ihyAHua_FQ6eWt2IJoNHNij5SYv6GVVjYY5lKyHT5zuAsi5S81AFeBrsX6eSQUznLqV6TqEyqRwX9Y007uSCy2C8I3bxkql9042N6yr6woGKralRdDN9Sem17QAY5mfoEdj6bTPu1Wz4j6QA4XJqTtooSjQlcDqaNXG2m7emDEgvOqTBHSySj9GW4cdRcbe7WeKkBHIemo419al23EUA6z1rR0kBhLNYuOIJMRE12V1QgJEqVfMwrX4eWprBKQ1qi6boDT5cJD_co6oRMBM1GzadfNlV9xkajVTFh4642pjhQV20X7s4u_XveWZPuMf7jRFqxm_i_MA4PiQQIcRitbMKyR4Ch26jg_ClRWblze7q1vsWxfcw7QjX6gH0edo-YmWG6md6NbUWi7v2oH6emHEY467EBqtZTMYBhUJR4YYW2JCvNHWr7fauI3UTKCIgYqMjdkSGd7AXbZK5hgkY3LpkHCviQbGvdRHBAOgsfQ5DBwAJqujwdTF27X0oUl63YCGxJ1OJ94P0aiD7JAU11LxREoPi9F_7rjt_y2qxFIGVaxxsMjZKeelCiryP6IzIMkg4e4DDRyaIs7RjTWTLhkUkhmt0E6oU6hOuVHb0rCoYYUBfSyZRefrOb18lU8m6VcYUQN9nw76lMqNa5-aGqf6OZ6doc91ygzGmEUl-kEsNNk8m-tfe_Eaeah6BBDZloQ41BJu8FR_F76xLOxB7qbIWR2-QT5zT1t6ha-XJ86441N9kEgu29Lil7vBsrhj=w1282-h961-no?authuser=0");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-content div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    height: 40%;
+    width: 40%;
+    border-radius: 50px;
+}
+.header-content h1 ,.header-content h2{
+    color: #fff;
+    font-size: 6rem;
+    margin: 2rem 0;
+    font-weight: 700;
+    z-index: 2;
+}
+
+/* main */
+.deneme{
+    position: absolute;
+    top: 95vh;
+}
+.satir {
+    margin-bottom: 25px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    background-color: var(--light-color);
+}
+.satir div{
+    height: 250px;
+    margin: 0;
+    padding: 0;
+}
+.card-image{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.content-yazilar h3,.content-yazilar p{
+    padding: 0 10px!important;
+}
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    height: 80px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+}
+.footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:568px){
+    html{
+        font-size: 9px;
+    }
+    .header-content div{
+        height: 40%;
+        width: 80%;
+        border-radius: 10px;
+    }
+    .satir{
+        display: flex;
+        flex-direction: row;
+        height: 500px;
+    }
+    .content-image{
+        height: 250px;
+        width: 100%;
+    }
+    .content-yazilar{
+        width: 100%;
+    }
+}
