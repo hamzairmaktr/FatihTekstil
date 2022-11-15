@@ -173,7 +173,7 @@ h6{
     }
     .satir{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         height: 500px;
     }
     .content-image{
@@ -182,5 +182,22 @@ h6{
     }
     .content-yazilar{
         width: 100%;
+    }
+    .img-right{
+        flex-direction: column-reverse;
+    }
+    .header-content div{       
+        height: 40%;
+        width: 95%;
+        border-radius: 15px;
+    }
+    .header-content h1 ,.header-content h2{
+        font-size: 5rem;
+    }
+    .satir {
+        height: 250px;
+    }
+    .satir div{
+        height: 250px;
     }
 }
